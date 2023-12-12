@@ -1,6 +1,7 @@
-
 body {
     background: linear-gradient(to bottom, #222233, #000000) fixed;
+    font-family: poppins;
+
 }
 .loading {
     /*background-color: #cccccc;*/
@@ -66,7 +67,7 @@ body {
     /*This will appear to the right of the raindrop, and take up 50% of the right side of the screen*/
     position:fixed;
     top: 24%;
-    left: 30%;
+    left: 42%;
     width: 50%;
     height: 600px;
 
