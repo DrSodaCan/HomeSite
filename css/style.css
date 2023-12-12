@@ -1,6 +1,7 @@
 body {
     background: linear-gradient(to bottom, #222233, #000000) fixed;
-    font-family: poppins;
+    font-family: poppins, serif;
+
 
 }
 .loading {
