@@ -73,3 +73,63 @@ body {
     height: 600px;
 
 }
+
+#exp_grid{
+    /*This will be a grid of elements with an internal div with the class of exp_element*/
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 10px;
+    padding: 10px;
+
+}
+.exp_element{
+    /*This will be the element that is in the grid*/
+    background-color: #0e008c;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    transition: all 0.5s ease;
+}
+.exp_element h2 {
+    /*This will be the title of the element*/
+    font-size: 30px;
+    color: #ffffff;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    font-family: 'Poppins', sans-serif;
+}
+.exp_element p{
+    /*This will be the title of the element*/
+    font-size: 20px;
+    color: #b7f0ff;
+    padding: 5px;
+    border-radius: 1px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    font-family: 'Poppins', sans-serif;
+}
+.exp_element a{
+    /*Change the color of the link*/
+    color: #7590ff;
+}
+
+.page_title{
+    /*This will be the title of the page*/
+    font-size: 50px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    color: #ffffff;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    /*Make the font orbitron*/
+    font-family: 'Orbitron', sans-serif;
+}
