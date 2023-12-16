@@ -87,10 +87,10 @@ body {
     /*This will be the element that is in the grid*/
     background-color: #0e008c;
     border-radius: 10px;
-    padding: 20px;
+    padding: 10px;
     text-align: center;
-    justify-content: center;
     align-items: center;
+
     display: flex;
     flex-direction: column;
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
@@ -100,7 +100,7 @@ body {
     /*This will be the title of the element*/
     font-size: 30px;
     color: #ffffff;
-    margin-top: 20px;
+    margin-top: 10px;
     margin-bottom: 5px;
     font-family: 'Poppins', sans-serif;
 }
@@ -128,8 +128,8 @@ body {
     display: flex;
     flex-direction: column;
     color: #ffffff;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 35px;
+    margin-bottom: 35px;
     /*Make the font orbitron*/
     font-family: 'Orbitron', sans-serif;
 }
