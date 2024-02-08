@@ -50,7 +50,6 @@ body {
     background-color: #3620F0;
 }
 #pauseButton{
-    /*make the button small and only in the bottom left corner*/
     position: fixed;
     bottom: 0;
     left: 0;
@@ -65,7 +64,6 @@ body {
     height: 600px;
 }
 .textbox{
-    /*This will appear to the right of the raindrop, and take up 50% of the right side of the screen*/
     position:fixed;
     top: 24%;
     left: 42%;
@@ -75,7 +73,6 @@ body {
 }
 
 #exp_grid{
-    /*This will be a grid of elements with an internal div with the class of exp_element*/
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
@@ -84,7 +81,6 @@ body {
 
 }
 .exp_element{
-    /*This will be the element that is in the grid*/
     background-color: #0e008c;
     border-radius: 10px;
     padding: 10px;
@@ -97,7 +93,6 @@ body {
     transition: all 0.5s ease;
 }
 .exp_element h2 {
-    /*This will be the title of the element*/
     font-size: 30px;
     color: #ffffff;
     margin-top: 10px;
@@ -105,7 +100,6 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 .exp_element p{
-    /*This will be the title of the element*/
     font-size: 20px;
     color: #b7f0ff;
     padding: 5px;
