@@ -1,3 +1,5 @@
+
+
 window.onload = function () {
     // Get the element you want to transition
     const element = document.querySelector('.loading');
@@ -8,7 +10,7 @@ window.onload = function () {
 };
 //Add event listener for the first time the user views the page
 
-
+/*
 let audio = document.getElementById("audio");
 let pauseButton = document.getElementById("pauseButton");
 audio.loop = true;
@@ -42,3 +44,5 @@ pauseButton.addEventListener("click", function () {
         playPauseIcon.src = "icons/circle-play-solid.png"; // Change to play icon when paused
     }
 });
+
+ */
